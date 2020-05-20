@@ -11,7 +11,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Are you sure you want to delete?" />
+        android:text="Are you sure you want to delete" />
 
     <TextView
         android:id="@+id/taskName"
@@ -22,7 +22,8 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="30dp"
         app:srcCompat="@drawable/ic_action_delete" />
 </LinearLayout>

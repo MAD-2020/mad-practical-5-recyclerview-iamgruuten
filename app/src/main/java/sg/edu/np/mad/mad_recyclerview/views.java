@@ -1,11 +1,11 @@
 package sg.edu.np.mad.mad_recyclerview;
 
-public class adapter {
+public class views {
 
     public String task;
     public boolean completed;
 
-    public adapter(String task, boolean completed) {
+    public views(String task, boolean completed) {
         this.task = task;
         this.completed = completed;
     }
